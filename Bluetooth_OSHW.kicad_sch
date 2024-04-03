@@ -1,0 +1,134 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "45b78866-6047-4631-b3ef-230df13ace1e")
+	(paper "A3")
+	(title_block
+		(title "nRF Battery Dev Kit")
+		(date "2024-02-26")
+		(rev "Proto")
+		(company "Clover Designs")
+		(comment 1 "Brendan Bleker")
+	)
+	(lib_symbols)
+	(sheet
+		(at 34.29 115.57)
+		(size 53.34 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "541a77a4-bacc-4614-a088-bb5308ebcf76")
+		(property "Sheetname" "POWER"
+			(at 34.29 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "POWER.kicad_sch"
+			(at 34.29 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Bluetooth_OSHW"
+				(path "/45b78866-6047-4631-b3ef-230df13ace1e"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 97.79)
+		(size 53.34 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "7b2dfbe2-907a-422c-96c9-24d772068968")
+		(property "Sheetname" "BLE_MCU"
+			(at 34.29 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "MCU_BLE.kicad_sch"
+			(at 34.29 109.8046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Bluetooth_OSHW"
+				(path "/45b78866-6047-4631-b3ef-230df13ace1e"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 132.08)
+		(size 53.34 11.43)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d84593e0-78e2-42aa-87f9-65c79fa5b8e5")
+		(property "Sheetname" "CONN"
+			(at 34.29 131.3684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CONN.kicad_sch"
+			(at 34.29 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Bluetooth_OSHW"
+				(path "/45b78866-6047-4631-b3ef-230df13ace1e"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

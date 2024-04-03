@@ -1,0 +1,15 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "83f16e5a-244e-4131-82d6-5373311ea401")
+	(paper "A3")
+	(title_block
+		(title "nRF Battery Dev Kit")
+		(date "2024-02-26")
+		(rev "Proto")
+		(company "Clover Designs")
+		(comment 1 "Brendan Bleker")
+	)
+	(lib_symbols)
+)
