@@ -5,13 +5,43 @@
 	(uuid "45b78866-6047-4631-b3ef-230df13ace1e")
 	(paper "A3")
 	(title_block
-		(title "nRF Battery Dev Kit")
-		(date "2024-02-26")
+		(title "stm32_bluet_pill")
+		(date "2024-04-03")
 		(rev "Proto")
 		(company "Clover Designs")
 		(comment 1 "Brendan Bleker")
 	)
 	(lib_symbols)
+	(text "Proto"
+		(exclude_from_sim no)
+		(at 389.636 18.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7439e5fe-36b3-485f-a195-2960626b5621")
+	)
+	(text "${CURRENT_DATE}"
+		(exclude_from_sim no)
+		(at 305.308 18.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7ee66c05-4274-4679-a654-b2fc536c3ae7")
+	)
+	(text "Initial Proto Release"
+		(exclude_from_sim no)
+		(at 343.154 18.288 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8633209b-eaae-4add-a232-d1921a1040cd")
+	)
 	(sheet
 		(at 34.29 115.57)
 		(size 53.34 11.43)

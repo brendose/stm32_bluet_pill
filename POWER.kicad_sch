@@ -5,8 +5,8 @@
 	(uuid "83f16e5a-244e-4131-82d6-5373311ea401")
 	(paper "A3")
 	(title_block
-		(title "nRF Battery Dev Kit")
-		(date "2024-02-26")
+		(title "stm32_bluet_pill")
+		(date "2024-04-03")
 		(rev "Proto")
 		(company "Clover Designs")
 		(comment 1 "Brendan Bleker")

@@ -5,8 +5,8 @@
 	(uuid "a2246c7d-2b2c-48b4-b6df-e26c2e562650")
 	(paper "A3")
 	(title_block
-		(title "nRF Battery Dev Kit")
-		(date "2024-02-26")
+		(title "stm32_bluet_pill")
+		(date "2024-04-03")
 		(rev "Proto")
 		(company "Clover Designs")
 		(comment 1 "Brendan Bleker")
@@ -11949,7 +11949,7 @@
 		(lib_id "Graphic:Logo_Open_Hardware_Small")
 		(at 391.16 26.67 0)
 		(unit 1)
-		(exclude_from_sim no)
+		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board no)
 		(dnp no)
@@ -11992,15 +11992,6 @@
 			)
 		)
 		(property "Description" "Open Hardware logo, small"
-			(at 391.16 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Enable" "0"
 			(at 391.16 26.67 0)
 			(effects
 				(font

@@ -5,13 +5,13 @@
       "Application": "Pcbnew",
       "Version": "8.0.1"
     },
-    "CreationDate": "2024-04-03T21:47:25-07:00"
+    "CreationDate": "2024-04-03T21:58:22-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "Bluetooth_OSHW",
       "GUID": "426c7565-746f-46f7-9468-5f4f5348572e",
-      "Revision": "rev?"
+      "Revision": "Proto"
     },
     "Size": {
       "X": 45.947,
