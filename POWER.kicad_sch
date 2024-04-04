@@ -4478,7 +4478,7 @@
 				)
 			)
 		)
-		(property "Value" "D"
+		(property "Value" "BAT54LP"
 			(at 181.61 138.43 0)
 			(effects
 				(font
@@ -4696,7 +4696,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "4.7UF"
 			(at 267.97 228.6062 0)
 			(effects
 				(font

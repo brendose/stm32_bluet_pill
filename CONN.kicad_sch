@@ -2549,16 +2549,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 48.26) (xy 143.51 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16eae93f-5d06-4de6-b7c4-5815bcee6d0d")
-	)
-	(wire
-		(pts
 			(xy 85.09 115.57) (xy 85.09 113.03)
 		)
 		(stroke
@@ -2599,6 +2589,16 @@
 	)
 	(wire
 		(pts
+			(xy 248.92 55.88) (xy 281.94 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2498caaa-ce90-401c-9179-7bc8c46271b1")
+	)
+	(wire
+		(pts
 			(xy 248.92 66.04) (xy 281.94 66.04)
 		)
 		(stroke
@@ -2616,6 +2616,16 @@
 			(type default)
 		)
 		(uuid "276c78d2-99a1-4069-938e-9261e2962b6f")
+	)
+	(wire
+		(pts
+			(xy 177.8 48.26) (xy 185.42 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29774db8-946a-44a0-b616-1bd000161289")
 	)
 	(wire
 		(pts
@@ -2726,6 +2736,16 @@
 			(type default)
 		)
 		(uuid "5434a656-40e3-4278-b8e8-33f3e1314400")
+	)
+	(wire
+		(pts
+			(xy 185.42 50.8) (xy 177.8 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "583fa67e-32e6-4bf5-b524-ccd941134405")
 	)
 	(wire
 		(pts
@@ -3019,6 +3039,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 45.72) (xy 177.8 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4d958f3-7488-4f30-bdef-1b9e8de02745")
+	)
+	(wire
+		(pts
 			(xy 44.45 80.01) (xy 44.45 83.82)
 		)
 		(stroke
@@ -3099,13 +3129,13 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 50.8) (xy 143.51 50.8)
+			(xy 177.8 50.8) (xy 177.8 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da9b56d5-921b-4b86-bed5-bd30e24e50d9")
+		(uuid "dae40f12-b19e-40ef-bee4-82a11dcdc373")
 	)
 	(wire
 		(pts
@@ -3280,28 +3310,6 @@
 			(justify left bottom)
 		)
 		(uuid "ccfa496d-4b33-49dc-9e3c-fc8e23e999f3")
-	)
-	(global_label "STM_WKUP2_PC13"
-		(shape output)
-		(at 143.51 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "05f5dad7-906d-4171-9c9b-423005e42b12")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.4707 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
 	)
 	(global_label "RESETB"
 		(shape output)
@@ -3721,28 +3729,6 @@
 			)
 		)
 	)
-	(global_label "STM_WKUP3_PC12"
-		(shape output)
-		(at 143.51 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cc9743c5-6a3d-4688-8fc1-937197ffb6ff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 123.4707 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "SPI2_STM_DO_DEV_DI_PB15"
 		(shape bidirectional)
 		(at 143.51 63.5 180)
@@ -3849,6 +3835,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "STM_WKUP2_PC13"
+		(shape output)
+		(at 281.94 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f47985e0-18bf-4855-9ee3-3162eacb7c6e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 301.9793 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5454,6 +5462,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:VCC")
+		(at 177.8 45.72 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c3e466a8-c798-4030-a620-6fd3d203622f")
+		(property "Reference" "#PWR086"
+			(at 177.8 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PP1800_ALW"
+			(at 177.8 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VCC\""
+			(at 177.8 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac5e847f-cb0f-4d00-bdd2-f733a28d6e74")
+		)
+		(instances
+			(project "Bluetooth_OSHW"
+				(path "/45b78866-6047-4631-b3ef-230df13ace1e/d84593e0-78e2-42aa-87f9-65c79fa5b8e5"
+					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:VBUS")
 		(at 71.12 109.22 0)
 		(unit 1)
@@ -5978,6 +6053,72 @@
 			(project "Bluetooth_OSHW"
 				(path "/45b78866-6047-4631-b3ef-230df13ace1e/d84593e0-78e2-42aa-87f9-65c79fa5b8e5"
 					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 177.8 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f76876af-83d5-4e5a-b493-0a512382d668")
+		(property "Reference" "#PWR077"
+			(at 177.8 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 177.8 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8572bd4-a09b-444a-aa38-30c3907b484b")
+		)
+		(instances
+			(project "Bluetooth_OSHW"
+				(path "/45b78866-6047-4631-b3ef-230df13ace1e/d84593e0-78e2-42aa-87f9-65c79fa5b8e5"
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
