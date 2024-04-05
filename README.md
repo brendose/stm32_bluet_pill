@@ -1,8 +1,7 @@
-<h1 align="center">Welcome to Project: stm32_bluet_pill (a Bluetooth OSHW design)</h1>
-<br>
+<h1 align="center">Welcome to Project: stm32_bluet_pill </br> (a Bluetooth OSHW design) </h1>
 <div align="center">
   <a href="https://github.com/brendose/stm32_bluet_pill"></a>
-</br>  
+
 
    ![Alt text](/images/Bluetooth_OSHW.jpg?raw=true)
 
@@ -34,7 +33,6 @@ The purpose of this project is to provide a development platform for wearables. 
 ### Projects top-level directory
 
     .
-    ├── /                       # Root directory with project files 
     ├── docs                    # Documentation files (alternatively `doc`)
     ├── images                  # pictures used in GitHub page
     ├── bom                     # stm32_blue_pill iBOM
