@@ -44,9 +44,9 @@ The purpose of this project is to provide a development platform for wearables. 
 ## Documentation
 
 ### Block Diagram
-
+<div align="center">
 ![Alt text](/images/stm32_bluet_pill-block-diagram.png?raw=true)
-
+</div>
 
 ## Issue
 
