@@ -38,7 +38,7 @@ The purpose of this project is to provide a development platform for wearables. 
     ├── images                  # Images used on this GitHub page
     ├── schematics              # Schematics of the stm32_bluet_pill
     ├── step                    # 3D STEP model of the design
-    ├── tapeout                 # Output files for PCB Fab and Assembly
+    ├── tapeout                 # Gerbers, Drill Drawings and other output files for PCB Fab and Assembly
     └── README.md
 
 ## Documentation
