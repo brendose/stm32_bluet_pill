@@ -122,7 +122,7 @@
         "min_hole_to_hole": 0.254,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
@@ -516,7 +516,7 @@
         "track_width": 0.102,
         "via_diameter": 0.375,
         "via_drill": 0.2,
-        "wire_width": 14
+        "wire_width": 6
       },
       {
         "bus_width": 12,
@@ -601,6 +601,7 @@
       "PP1800_ALW": "Power",
       "PP3300_DBG": "Power",
       "PP3300_VDDUSB": "Power",
+      "PPVAR_ADC": "Power",
       "PPVAR_BAT": "Power",
       "PPVAR_SYS": "Power",
       "PPVAR_VIN": "Power",
@@ -653,7 +654,7 @@
       "plot": "tapeout/",
       "pos_files": "tapeout/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "step/Bluetooth_OSHW.step",
       "svg": "",
       "vrml": ""
     },
@@ -794,7 +795,7 @@
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "",
       "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
+      "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
@@ -813,7 +814,7 @@
     },
     "net_format_name": "",
     "page_layout_descr_file": "C:\\hw-eng\\kicad_setup\\templates\\schematic-titleblock.kicad_wks",
-    "plot_directory": "",
+    "plot_directory": "schematics/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",
     "spice_model_current_sheet_as_root": true,
