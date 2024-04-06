@@ -33,9 +33,11 @@ The purpose of this project is to provide a development platform for wearables. 
 ### Projects top-level directory
 
     .
-    ├── docs                    # Documentation files (alternatively `doc`)
-    ├── images                  # pictures used in GitHub page
     ├── bom                     # stm32_blue_pill iBOM
+    ├── docs                    # Documentation files (alternatively `doc`)
+    ├── images                  # Images used on this GitHub page
+    ├── schematics              # Schematics of the stm32_bluet_pill
+    ├── step                    # 3D STEP model of the design
     ├── tapeout                 # Output files for PCB Fab and Assembly
     └── README.md
 
