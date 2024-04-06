@@ -43,6 +43,11 @@ The purpose of this project is to provide a development platform for wearables. 
 
 ## Documentation
 
+### Block Diagram
+
+![Alt text](/images/stm32_bluet_pill-block-diagram.png?raw=true)
+
+
 ## Issue
 
 This repository is not actively maintained, so if you spot any bugs, please <a href="https://github.com/brendose/stm32_bluet_pill/issues/new">raise an issue</a> and I will try get to it.
