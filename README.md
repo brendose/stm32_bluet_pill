@@ -3,7 +3,7 @@
   <a href="https://github.com/brendose/stm32_bluet_pill"></a>
 
 
-   ![Alt text](/images/stm32_bluet_pill.jpg?raw=true)
+   ![Alt text](/images/stm32_bluet_pill.png?raw=true)
 
 
 <a href="#introduction">Introduction</a> &nbsp;&bull;&nbsp;
