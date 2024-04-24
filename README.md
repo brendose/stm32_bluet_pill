@@ -9,7 +9,7 @@
 <a href="#introduction">Introduction</a> &nbsp;&bull;&nbsp;
 <a href="#directory">Directory</a> &nbsp;&bull;&nbsp;
 <a href="#documentation">Documentation</a> &nbsp;&bull;&nbsp;
-<a href="#issue">Issue?</a>
+<a href="#notes">Notes</a>
 </div>
 
 
@@ -50,9 +50,9 @@ The purpose of this project is to provide a development platform for wearables. 
 
 </div>
 
-## Issue
+## Notes
 
 This repository is not actively maintained, so if you spot any bugs, please <a href="https://github.com/brendose/stm32_bluet_pill/issues/new">raise an issue</a> and I will try get to it.
 
-<h4>Liked the work ?</h4>
-Give the repository a star!
+This is not an officially supported Google product. 
+
