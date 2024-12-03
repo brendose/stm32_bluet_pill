@@ -106,7 +106,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.0
+          "min_clearance": 0.125
         }
       },
       "diff_pair_dimensions": [
@@ -117,19 +117,13 @@
         }
       ],
       "drc_exclusions": [
-        "clearance|231301600|133450000|bab6e924-35d7-4e2b-be11-c98d31e160d7|f49a1928-6f27-41df-9d91-a7a6088145d1",
+        "clearance|217110000|132622499|1657b09c-d2a5-4ac3-803e-3a9b25b283bd|ce29aedc-c22a-49a1-a7a8-6d9960606a58",
         "copper_edge_clearance|197170000|137800000|26ae1eb6-8686-42f5-b1a8-bdf3e28eda98|618e5417-577b-4c42-9207-6f18f9b44719",
-        "courtyards_overlap|207140001|130120001|4f823b2c-1cff-4ac9-9b24-954c5deaf1e7|5260e5dd-02b6-4363-8a47-2632c63f6393",
-        "courtyards_overlap|215140001|130170001|2d085199-9764-4ec4-98fe-772c54512041|5260e5dd-02b6-4363-8a47-2632c63f6393",
-        "courtyards_overlap|221600001|133760001|075294b2-00ec-4271-b445-b62e49cc480c|f1a73bae-e7d6-4c85-bdba-c8e512a994f5",
-        "items_not_allowed|227568400|135350800|f3b05ac9-4ced-4339-bc49-df6f140ee93c|00000000-0000-0000-0000-000000000000",
-        "items_not_allowed|229488400|135100800|a771a41d-039e-4648-9a71-4215100a2c27|00000000-0000-0000-0000-000000000000",
-        "silk_overlap|225220205|137584682|28ed9186-9cc8-48f6-aba9-4570a8289913|3c201420-37a6-4d94-a76e-41db9b70b599",
-        "solder_mask_bridge|227618400|135100800|8fad186e-f348-4c2a-92cd-dd43837f7688|036eb02e-6fcd-4b6d-aac5-5c2efae2a803",
-        "solder_mask_bridge|228593400|134375800|8fad186e-f348-4c2a-92cd-dd43837f7688|b6c7c61b-25be-4ad2-9781-8b2ee65f65e4",
-        "solder_mask_bridge|228943400|135825800|8fad186e-f348-4c2a-92cd-dd43837f7688|b6c7c61b-25be-4ad2-9781-8b2ee65f65e4",
-        "solder_mask_bridge|229728400|135100800|8fad186e-f348-4c2a-92cd-dd43837f7688|036eb02e-6fcd-4b6d-aac5-5c2efae2a803",
-        "solder_mask_bridge|229728400|135100800|8fad186e-f348-4c2a-92cd-dd43837f7688|b6c7c61b-25be-4ad2-9781-8b2ee65f65e4"
+        "hole_clearance|215510000|132622500|28405768-28f6-49d1-8aa1-754f3a644e21|658d840d-92a9-4611-a6d7-8c966a4fb63a",
+        "hole_clearance|217110000|132622499|ce29aedc-c22a-49a1-a7a8-6d9960606a58|1657b09c-d2a5-4ac3-803e-3a9b25b283bd",
+        "hole_clearance|218710000|132622500|8dd1db3e-5855-4ff5-a359-6fd1bca207d4|6c6cc2a4-5f8c-4631-b148-8446cb3d3157",
+        "missing_courtyard|228180000|143786686|ca63870e-a877-4afa-af59-5430100ecccc|00000000-0000-0000-0000-000000000000",
+        "silk_overlap|225220205|137584682|28ed9186-9cc8-48f6-aba9-4570a8289913|3c201420-37a6-4d94-a76e-41db9b70b599"
       ],
       "meta": {
         "version": 2
@@ -140,7 +134,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
         "drill_out_of_range": "error",
@@ -151,6 +145,7 @@
         "footprint_type_mismatch": "ignore",
         "hole_clearance": "error",
         "hole_near_hole": "error",
+        "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
@@ -160,7 +155,7 @@
         "lib_footprint_mismatch": "ignore",
         "malformed_courtyard": "error",
         "microvia_drill_out_of_range": "error",
-        "missing_courtyard": "ignore",
+        "missing_courtyard": "warning",
         "missing_footprint": "warning",
         "net_conflict": "warning",
         "npth_inside_courtyard": "ignore",
@@ -171,7 +166,7 @@
         "silk_over_copper": "error",
         "silk_overlap": "error",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "ignore",
         "starved_thermal": "error",
         "text_height": "ignore",
         "text_thickness": "warning",
@@ -288,11 +283,7 @@
         },
         {
           "diameter": 0.45,
-          "drill": 0.3
-        },
-        {
-          "diameter": 0.6,
-          "drill": 0.3
+          "drill": 0.25
         }
       ],
       "zones_allow_external_fillets": false
@@ -566,7 +557,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "I2C",
-        "pcb_color": "rgb(0, 132, 0)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1184,
         "via_diameter": 0.45,
@@ -575,7 +566,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.1,
+        "clearance": 0.125,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -588,7 +579,7 @@
         "track_width": 0.127,
         "via_diameter": 0.45,
         "via_drill": 0.3,
-        "wire_width": 6
+        "wire_width": 18
       },
       {
         "bus_width": 12,
@@ -600,7 +591,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "QSPI",
-        "pcb_color": "rgb(132, 0, 132)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1184,
         "via_diameter": 0.45,
@@ -609,7 +600,7 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.13,
+        "clearance": 0.135,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -668,7 +659,7 @@
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
         "name": "USB",
-        "pcb_color": "rgb(0, 132, 132)",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.102,
         "via_diameter": 0.45,
@@ -693,6 +684,7 @@
       "/BLE_MCU/STM_RF": "RF",
       "I2C3_SCL": "I2C",
       "I2C3_SDA": "I2C",
+      "Net-(J2-Pin_8)": "Power",
       "Net-(U5-SW)": "Power",
       "Net-(U5-VOS)": "Power",
       "PP1800_ALW": "Power",
@@ -745,12 +737,8 @@
         "pattern": "*VBUS*"
       },
       {
-        "netclass": "Default",
+        "netclass": "SAI",
         "pattern": "*SAI*"
-      },
-      {
-        "netclass": "Power",
-        "pattern": "GND"
       }
     ]
   },
@@ -766,10 +754,11 @@
       "svg": "",
       "vrml": ""
     },
-    "page_layout_descr_file": "C:/hw-eng/kicad_setup/templates/bb-designs_PCB.kicad_wks"
+    "page_layout_descr_file": "${KICAD8_TEMPLATE_DIR}/bb-designs_PCB.kicad_wks"
   },
   "schematic": {
     "annotate_start_num": 0,
+    "bom_export_filename": "bom/stm32_bluet_pill_v2.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -885,6 +874,30 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tol",
+          "name": "Tol",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEMPCO",
+          "name": "TEMPCO",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PackType",
+          "name": "PackType",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "FREQ",
+          "name": "FREQ",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -921,7 +934,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "C:\\hw-eng\\kicad_setup\\templates\\bb-designs.kicad_wks",
+    "page_layout_descr_file": "bb-designs_A3.kicad_wks",
     "plot_directory": "schematics/",
     "spice_current_sheet_as_root": false,
     "spice_external_command": "spice \"%I\"",

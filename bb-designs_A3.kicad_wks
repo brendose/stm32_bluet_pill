@@ -1,0 +1,253 @@
+(kicad_wks
+	(version 20231118)
+	(generator "pl_editor")
+	(generator_version "8.0")
+	(setup
+		(textsize 1.5 1.5)
+		(linewidth 0.15)
+		(textlinewidth 0.15)
+		(left_margin 10)
+		(right_margin 10)
+		(top_margin 10)
+		(bottom_margin 10)
+	)
+	(rect
+		(name "")
+		(start 110 34)
+		(end 2 2)
+		(comment "rect around the title block")
+	)
+	(rect
+		(name "")
+		(start 0 0 ltcorner)
+		(end 0 0)
+		(repeat 2)
+		(incrx 2)
+		(incry 2)
+	)
+	(line
+		(name "")
+		(start 50 2 ltcorner)
+		(end 50 0 ltcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 50 2 lbcorner)
+		(end 50 0 lbcorner)
+		(repeat 30)
+		(incrx 50)
+	)
+	(tbtext "1"
+		(name "")
+		(pos 25 1 lbcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(repeat 100)
+		(incrx 50)
+	)
+	(line
+		(name "")
+		(start 0 50 ltcorner)
+		(end 2 50 ltcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 ltcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(line
+		(name "")
+		(start 0 50 rtcorner)
+		(end 2 50 rtcorner)
+		(repeat 30)
+		(incry 50)
+	)
+	(tbtext "A"
+		(name "")
+		(pos 1 25 rtcorner)
+		(font
+			(size 1.3 1.3)
+		)
+		(justify center)
+		(repeat 100)
+		(incry 50)
+	)
+	(tbtext "Date: ${ISSUE_DATE}"
+		(name "")
+		(pos 87 6.9)
+	)
+	(line
+		(name "")
+		(start 110 5.5)
+		(end 2 5.5)
+	)
+	(tbtext "${KICAD_VERSION}"
+		(name "")
+		(pos 109 4.1)
+		(comment "Kicad version")
+	)
+	(line
+		(name "")
+		(start 110 8.5)
+		(end 2 8.5)
+	)
+	(tbtext "Rev: ${REVISION}"
+		(name "")
+		(pos 24 6.9)
+		(font bold)
+	)
+	(tbtext "Size: ${PAPER}"
+		(name "")
+		(pos 109 6.9)
+		(comment "Paper format name")
+	)
+	(tbtext "Id: ${#}/${##}"
+		(name "")
+		(pos 24 4.1)
+		(comment "Sheet id")
+	)
+	(line
+		(name "")
+		(start 110 12.5)
+		(end 2 12.5)
+	)
+	(tbtext "Title: ${TITLE}"
+		(name "")
+		(pos 109 10.7)
+		(font
+			(size 2 2) bold italic)
+	)
+	(tbtext "File: ${FILENAME}"
+		(name "")
+		(pos 109 14.3)
+	)
+	(line
+		(name "")
+		(start 110 18.5)
+		(end 2 18.5)
+	)
+	(tbtext "Sheet: ${SHEETPATH}"
+		(name "")
+		(pos 109 17)
+	)
+	(tbtext "${COMPANY}"
+		(name "")
+		(pos 109 20)
+		(font bold)
+		(comment "Company name")
+	)
+	(tbtext "${COMMENT1}"
+		(name "")
+		(pos 109 23)
+		(comment "Comment 0")
+	)
+	(line
+		(name "")
+		(start 90 8.5)
+		(end 90 5.5)
+	)
+	(line
+		(name "")
+		(start 26 8.5)
+		(end 26 2)
+	)
+	(bitmap
+		(name "")
+		(pos 55.913 26.1442)
+		(scale 0.7833333333)
+		(data "iVBORw0KGgoAAAANSUhEUgAAAE4AAAA9CAYAAAADHF9yAAAAAXNSR0IArs4c6QAAAARnQU1BAACx"
+			"jwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAPZSURBVHhe7ZttteowEEWxgAYs4AEJaMACDnCA"
+			"AxSgAAMYwAEe+th5N6ySTL4mpYGWs9Z5P96lycxukiZTWHSVul6v3el06g6HQ7fZbIzX63W3WCw+"
+			"wsRi4yJGYiXmWqnAnc/nbrfbdcvlUgz2G0zs5EAuGhWB426tVisxkG82OZFbibLAMbSnCMw1OeZO"
+			"4yQ47oTUyZSdM/qi4OYIzToFLwjucrmIDc7JMAhJBHe/32expqUMA1hIEsGx35EamqNhIUkEV7M/"
+			"4y7t93szzG+321+LYbExldqJmWtSom9iIJaa2QMLSR44NoRSAynTwfF4/GslX+8C54rYtANC2iR7"
+			"4DTTlIC0x5ixwCFi1MCTpqsHTpOIZqRZjQkOEavUZsxSfx640gN6aA3I1djgUOmog4krD5x0Ycwc"
+			"lGvUAhwxS+3G7KoaXOhxnasW4DTruKsfuEy78v6nNJE5gJP688CVzv85gJPWcQ9caUWkNokW4Er7"
+			"lColHjgOtdLFMeccrUIaGxyxSm3GLB30/VXvodLpWrMlGRvcULmJ4DR3JadqKmlMcJrCbGg2ieCQ"
+			"5pGteVCMBW7ofILgUOmwxv2yUqgI2Ne7wNF3TVkptfxEwSENvG93ChpKgkPUo7S1rG8yOea+oM4C"
+			"hxj6zPmaauqnmpzILWdpscoCx1rB8J0iNGtyI0dyzVEUHMN2yrBCJufUlBXBMWS3263Y6JwMg9D0"
+			"9cCx4fukr2m1NiykTfALOOj+oPmGiTvyXsBpNqNzsbvpfoLTvP3pmz0QTyXOg7mnBvSukwMiBmIh"
+			"JmKr3Yv23+YZcHSgbZTraDAXlKt3gnNFjMRak6vN04DTjrbQwlmiMcFZ1TwA7agz4DSN9OnXqAU4"
+			"pJ1lsEILGpA+kLK2/uaqFTikqc9hw4zFU/pjzOysh1JLcEhzMjLMNAU+alxDqTU4cpH6iNkw04Ab"
+			"apqi1uA001UNLreCkKPW4DRL1Q/cQz9wSqnBaef4UGoNTjNwDDMNcbsJHEKtwWk2/4YZF0t/THmo"
+			"6doSnGbQYGT+1VR7hxp1LcFpRhuskAFHfV36UMo57x9TagWO2KW2U7bvIv6Pu4e0L2W4azXTdmxw"
+			"xKoZabh/1HyC0x54rUmGkkspxDHAEROxafrqu39ieoJDtQ1P2e7NegGnrVFN3VLt8QUc0v5sZ6qG"
+			"hfRzKw8c4oPah8WUDIPQb9REcIihOee3+bG3+CgIzmpu3x8h19T3RlASnBWP4ikDJLf+diOlbHBW"
+			"zHnKzdpN5CeZHMgltI7FVAyuL9YANpeUZjjCsNf5xL2gjYsYiZWYY+tXWl33D2o14Y/R7B16AAAA"
+			"AElFTkSuQmCC"
+		)
+	)
+	(line
+		(name "")
+		(start 97.569 271.7622)
+		(end 6.129 271.7622)
+		(option page1only)
+	)
+	(line
+		(name "")
+		(start 6.129 271.7622)
+		(end 6.129 244.0762)
+		(option page1only)
+	)
+	(line
+		(name "")
+		(start 97.569 271.7622)
+		(end 97.569 244.0762)
+		(option page1only)
+	)
+	(line
+		(name "")
+		(start 97.569 266.6822)
+		(end 6.129 266.6822)
+		(option page1only)
+	)
+	(line
+		(name "")
+		(start 77.503 271.7622)
+		(end 77.503 244.0762)
+		(option page1only)
+	)
+	(line
+		(name "")
+		(start 27.719 271.7622)
+		(end 27.719 244.0762)
+		(option page1only)
+	)
+	(tbtext "DATE"
+		(name "")
+		(pos 91.473 269.2222)
+		(option page1only)
+		(font bold)
+	)
+	(tbtext "NOTES"
+		(name "")
+		(pos 57.691 269.2222)
+		(option page1only)
+		(font bold)
+	)
+	(tbtext "REVISION"
+		(name "")
+		(pos 22.131 269.2222)
+		(option page1only)
+		(font bold)
+	)
+)

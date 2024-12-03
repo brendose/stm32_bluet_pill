@@ -7,7 +7,7 @@
 	(title_block
 		(title "stm32_bluet_pill")
 		(date "2024-04-17")
-		(rev "Proto")
+		(rev "Proto V2")
 		(company "Brendan Bleker")
 		(comment 1 "Designed by:")
 	)
@@ -148,6 +148,28 @@
 			)
 		)
 	)
+	(polyline
+		(pts
+			(xy 312.42 43.18) (xy 403.86 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 255 255 1)
+		)
+		(uuid "05e13af7-d17f-4826-8f3b-07ebe2d4f720")
+	)
+	(polyline
+		(pts
+			(xy 312.42 24.13) (xy 403.86 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 255 255 1)
+		)
+		(uuid "623dd72f-995d-4c97-8ff8-6f78d9972324")
+	)
 	(text "Proto"
 		(exclude_from_sim no)
 		(at 393.192 22.606 0)
@@ -158,7 +180,7 @@
 		)
 		(uuid "7439e5fe-36b3-485f-a195-2960626b5621")
 	)
-	(text "${CURRENT_DATE}"
+	(text "2024-04-17"
 		(exclude_from_sim no)
 		(at 321.31 22.86 0)
 		(effects
@@ -189,6 +211,36 @@
 			)
 		)
 		(uuid "8633209b-eaae-4add-a232-d1921a1040cd")
+	)
+	(text "Proto"
+		(exclude_from_sim no)
+		(at 393.192 26.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "acd092b5-a03c-4ff5-9f62-fed6ed928c98")
+	)
+	(text "BOM and Bug Fix Updates"
+		(exclude_from_sim no)
+		(at 355.346 26.416 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c074bb00-8657-434d-b638-ba179b479591")
+	)
+	(text "2024-12-02"
+		(exclude_from_sim no)
+		(at 321.31 26.67 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e2e4507f-7263-429a-b9e9-31f1fa82a372")
 	)
 	(symbol
 		(lib_id "Graphic:Logo_Open_Hardware_Small")

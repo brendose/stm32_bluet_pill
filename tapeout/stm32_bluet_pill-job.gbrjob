@@ -3,22 +3,22 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "8.0.1"
+      "Version": "8.0.6-8.0.6-0~ubuntu24.04.1"
     },
-    "CreationDate": "2024-04-17T19:21:13-07:00"
+    "CreationDate": "2024-12-02T20:40:39-08:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
       "Name": "stm32_bluet_pill",
       "GUID": "73746d33-325f-4626-9c75-65745f70696c",
-      "Revision": "Proto"
+      "Revision": "V2"
     },
     "Size": {
       "X": 45.577,
       "Y": 19.658
     },
     "LayerNumber": 4,
-    "BoardThickness": 1.1382,
+    "BoardThickness": 0.9732,
     "Finish": "None",
     "ImpedanceControlled": true
   },
@@ -38,8 +38,8 @@
       "PadToTrack": 0.0,
       "TrackToTrack": 0.1,
       "MinLineWidth": 0.5,
-      "TrackToRegion": 0.15,
-      "RegionToRegion": 0.15
+      "TrackToRegion": 0.125,
+      "RegionToRegion": 0.125
     }
   ],
   "FilesAttributes": [
@@ -136,7 +136,7 @@
     },
     {
       "Type": "Dielectric",
-      "Thickness": 0.865,
+      "Thickness": 0.7,
       "Material": "FR4",
       "DielectricConstant": "4.6",
       "LossTangent": "0.02",
